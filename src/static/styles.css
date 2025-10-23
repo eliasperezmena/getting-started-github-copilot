@@ -81,13 +81,27 @@ section h3 {
 }
 
 .activity-card .participants ul {
-  list-style-position: inside;
+  list-style: none;
   padding-left: 10px;
 }
 
 .activity-card .participants li {
   margin: 5px 0;
   color: #666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-participant {
+  cursor: pointer;
+  color: #ff4444;
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+
+.delete-participant:hover {
+  color: #cc0000;
 }
 
 .form-group {
